@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	height: 100vh;
+	background-color: hsl(193, 100%, 96%);
+	background-image: url('./images/bg-hero-mobile.svg');
+	background-repeat: no-repeat;
+    text-align: center;
+}
+
+.menu {
+	padding: 30px 15px;
+    margin-bottom: 35px;
+}
+
+.logo-container {
+	width: 50%;
+	float: left;
+    text-align: left;
+	/* position: absolute;
+	top: 50%;
+    left: 20px; */
+}
+
+.logo {
+	width: 70%;
+}
+
+.trial-btn {
+	float: right;
+	background-color: white;
+	padding: 5px 25px;
+	border-radius: 15px;
+	font-size: 10px;
+	font-family: Poppins;
+    font-weight: 700;
+	/* position: absolute;
+	top: 50%;
+    right: 20px; */
+}
+
+.header-title {
+	font-size: 1.5rem;
+	font-family: Poppins;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+	text-align: center;
+	padding: 25px 10%;
+}
+
+.header-description {
+	font-size: 0.9rem;
+	font-family: Poppins;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+	text-align: center;
+    padding: 0 8%;
+}
+
+.started-button{
+    display: inline-block;
+    margin: 0 auto;
+    background-color:hsl(322, 100%, 66%);
+    color: white;
+    padding: 11px 55px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.mockups-headers{
+    text-align: center;
+    margin-top: 50px;
+}
+.mockups-headers img{
+    width: 300px;
+}
